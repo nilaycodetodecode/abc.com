@@ -200,7 +200,7 @@ def handle_api(environ):
             'headers': [('Content-type', 'application/json')],
             'body': json.dumps({
                 'server': 'Static WSGI Server',
-                'ip': '203.0.113.45',
+                'ip': '18.169.142.218',
                 'port': 8000,
                 'status': 'online'
             })
@@ -240,7 +240,7 @@ def handle_not_found(environ):
 if __name__ == '__main__':
     # Create the WSGI server
     port = 8000
-    static_ip = '203.0.113.45'  # Replace with your actual static IP
+    static_ip = '18.169.142.218'  # Replace with your actual static IP
     
     print(f"Serving static website at http://{static_ip}:{port}")
     print("Available routes:")
